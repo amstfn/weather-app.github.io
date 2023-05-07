@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/drum-machine.github.io/static/css/main.08a95114.css",
-    "main.js": "/drum-machine.github.io/static/js/main.1013aad9.js",
-    "index.html": "/drum-machine.github.io/index.html",
-    "main.08a95114.css.map": "/drum-machine.github.io/static/css/main.08a95114.css.map",
-    "main.1013aad9.js.map": "/drum-machine.github.io/static/js/main.1013aad9.js.map"
+    "main.css": "/weather-app.github.io/static/css/main.d1151642.css",
+    "main.js": "/weather-app.github.io/static/js/main.3d507f48.js",
+    "static/js/787.d9312eb8.chunk.js": "/weather-app.github.io/static/js/787.d9312eb8.chunk.js",
+    "index.html": "/weather-app.github.io/index.html",
+    "main.d1151642.css.map": "/weather-app.github.io/static/css/main.d1151642.css.map",
+    "main.3d507f48.js.map": "/weather-app.github.io/static/js/main.3d507f48.js.map",
+    "787.d9312eb8.chunk.js.map": "/weather-app.github.io/static/js/787.d9312eb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08a95114.css",
-    "static/js/main.1013aad9.js"
+    "static/css/main.d1151642.css",
+    "static/js/main.3d507f48.js"
   ]
 }
