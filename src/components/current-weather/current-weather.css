@@ -1,0 +1,87 @@
+.weather {
+    width: calc(100vw - 77vw);
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgba(0, 0, 0, 30%);
+    color: #fff;
+    background-color: #333;
+    margin: 2% auto 0 auto;
+    padding: 0 2% 2% 2%;
+}
+
+.top,
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city {
+    font-weight: 600;
+    font-size: calc(100vw - 98.5vw);
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.weather-description {
+    font-weight: 400;
+    font-size: calc(100vw - 99.2vw);
+    line-height: 1;
+    margin: 0;
+}
+
+.weather-icon {
+    width: 30%;
+}
+
+.temperature {
+    font-weight: 600;
+    font-size: calc(100vw - 95vw);
+    letter-spacing: -5px;
+    margin: 1% 0;
+}
+
+.details {
+    width: 100%;
+    padding-left: 5%;
+}
+
+.parameter-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parameter-label {
+    text-align: left;
+    font-weight: 400;
+    font-size: calc(100vw - 99vw);
+}
+
+.parameter-value {
+    text-align: right;
+    font-weight: 600;
+    font-size: calc(100vw - 99vw);
+}
+
+@media (max-width: 700px) {
+    .weather {
+        width: calc(100vw - 20vw);
+        margin-bottom: 5%;  
+    }
+    .city {
+        font-size: calc(100vw - 95vw)
+    }
+    .weather-description {
+        font-size: calc(100vw - 95.7vw);
+    }
+    .temperature {
+        font-size: calc(100vw - 87vw);
+        letter-spacing: 0px;
+    }
+    .parameter-label {
+        font-size: calc(100vw - 97vw)
+    }
+    .parameter-value {
+        font-size: calc(100vw - 97vw)
+    }
+}

@@ -1,0 +1,10 @@
+.container {
+  max-width: calc(100vw - 35vw);
+  margin: 2% auto;
+}
+
+@media (max-width: 700px) {
+  .container {
+    max-width: calc(100vw - 10vw);
+  }
+}
